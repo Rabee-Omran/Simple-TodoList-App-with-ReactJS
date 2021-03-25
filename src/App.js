@@ -1,5 +1,6 @@
 import Welcome from './components/Welcome';
 import List from './components/List';
+import LifeCycleExample from './components/LifeCycleExample';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
    <Welcome/>
    <List/>
+   <LifeCycleExample/>
     </div>
   );
 }
